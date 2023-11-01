@@ -1,0 +1,17 @@
+<MyRoot>:
+    randnum:randnum
+    BoxLayout:
+        orientation:'vertical'
+        Label:
+            text:'Random number generator'
+            font_size:52
+            color: .6,.7,.8,1
+        Label:
+            id:randnum
+            text:'-'
+            font_size:64
+        Button:
+            text:'Get Number'
+            font_size:32
+            on_press:root.gennum()
+        
